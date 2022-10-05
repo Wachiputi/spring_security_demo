@@ -11,5 +11,5 @@ import lombok.experimental.FieldDefaults;
 @NoArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class LoginRequest {
-    String userName, password;
+    String userName, password  ;
 }
